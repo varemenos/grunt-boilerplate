@@ -53,11 +53,17 @@ module.exports = {
 
 ## Installation
 
-Firs you have to download the files in your current working directory and then install grunt and the boilerplate's required grunt tasks.
+1. First you have to download the files in your current working directory:
 
 ```shell
 wget https://github.com/varemenos/grunt-boilerplate/archive/master.zip
-    unzip master.zip
-    rm master.zip LICENSE README.md
+unzip master
+mv grunt-boilerplate-master/* .
+rm -r grunt-boilerplate-master master LICENSE README.md
+```
+
+2. Then you have to install grunt and the boilerplate's required grunt tasks:
+
+```shell
 npm i -D grunt grunt-contrib-watch jit-grunt load-grunt-configs
 ```
