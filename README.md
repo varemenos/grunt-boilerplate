@@ -46,9 +46,8 @@ In the `tasks` directory there are 2 things you can do.
   └── another-one.js
   └── config
     └── watch.js
-      └── watch.js
-      └── sass.js
-      └── uglify.js
+    └── sass.js
+    └── uglify.js
 ```
 
 ### Sample task file
