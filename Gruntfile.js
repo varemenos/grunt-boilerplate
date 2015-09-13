@@ -1,10 +1,10 @@
 'use strict';
 
 module.exports = function (grunt) {
-    // load all required grunt tasks
+    // lazy-load only the required grunt tasks
     require('jit-grunt')(grunt);
 
-	// load and initialize all task configurations
+    // load and then initialize all task configurations
     var taskConfigs = require('load-grunt-configs')(grunt, {
         config: {
             src: 'tasks/config/*.js'
@@ -12,7 +12,7 @@ module.exports = function (grunt) {
     });
     grunt.initConfig(taskConfigs);
 
-	// load custom tasks from ./tasks folder
+    // load custom tasks from ./tasks folder
     grunt.task.loadTasks('./tasks');
 
     grunt.registerTask('default', ['watch']);
