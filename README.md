@@ -8,7 +8,7 @@
 wget https://github.com/varemenos/grunt-boilerplate/archive/master.zip
 unzip master
 mv grunt-boilerplate-master/* .
-rm -r grunt-boilerplate-master master LICENSE README.md
+rm -r grunt-boilerplate-master master tasks/sample LICENSE README.md
 ```
 
 2. Then you have to install grunt and the boilerplate's required grunt tasks:
@@ -66,6 +66,8 @@ module.exports = {
     }
 };
 ```
+
+You can find more examples [here](https://github.com/varemenos/grunt-boilerplate/tree/master/tasks/sample).
 
 ## License
 
