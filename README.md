@@ -1,5 +1,14 @@
 # grunt-boilerplate
 
+## Features
+
+1. Modular and clean Grunt configuration via [load-grunt-configs](https://github.com/creynders/load-grunt-configs/).
+2. No more `grunt.loadNpmTasks()`, all grunt tasks are automatically loaded via [jit-grunt](https://github.com/shootaroo/jit-grunt).
+3. Lazy-load Grunt tasks as they needed, no more loading a myriad of grunt tasks just so you can run the `grunt-contrib-concat`) via [jit-grunt](https://github.com/shootaroo/jit-grunt).
+4. Preconfigured watch task for your `gruntfile.js` and grunt tasks configurations so it will reload grunt if you modify them via [tasks/config/watch.js](https://github.com/varemenos/grunt-boilerplate/blob/master/tasks/config/watch.js#L2-L10).
+5. Load custom tasks from `./tasks` via [grunt.task.loadTasks](https://github.com/varemenos/grunt-boilerplate/blob/master/Gruntfile.js#L16).
+6. More to come
+
 ## Installation
 
 1. First you have to download the files in your current working directory:
