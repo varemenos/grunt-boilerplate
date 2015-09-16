@@ -7,7 +7,7 @@
 3. Lazy-load Grunt tasks as needed, you no longer need to load a myriad of grunt tasks just so you can run the `grunt-contrib-concat`) (via [jit-grunt](https://github.com/shootaroo/jit-grunt)).
 4. Preconfigured watch task for your `gruntfile.js` and grunt tasks configurations so it will reload grunt if you modify them (via [tasks/config/watch.js](https://github.com/varemenos/grunt-boilerplate/blob/master/tasks/config/watch.js#L2-L10)).
 5. Load custom tasks from `./tasks` (via [grunt.task.loadTasks](https://github.com/varemenos/grunt-boilerplate/blob/master/Gruntfile.js#L16)).
-6. Your suggestions and feature requests goes here ([via](https://github.com/varemenos/grunt-boilerplate/issues))
+6. Your suggestions and feature requests goes here
 
 ## Installation
 
