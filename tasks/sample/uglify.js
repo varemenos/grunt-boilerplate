@@ -8,7 +8,7 @@ module.exports = {
     },
     'base': {,
         files: {
-            'output.css': ['input.css']
+            'output.js': ['input.js']
         }
     }
 };
